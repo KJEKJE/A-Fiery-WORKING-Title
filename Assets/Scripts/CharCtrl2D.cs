@@ -5,16 +5,16 @@ using UnityEngine;
 public class CharCtrl2D : MonoBehaviour
 {
     public float speed = 5.0f;
-    Rigidbody2D rigidbody2D;
+    Rigidbody2D rBody2D;
     void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rBody2D = GetComponent<Rigidbody2D>();
     }
     void FixedUpdate() //runs constantly
     {
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
-        rigidbody2D.velocity = new Vector2(x, y) * speed;
-        rigidbody2D.angularVelocity = 0.0f;
+        rBody2D.velocity = new Vector2(x, y) * speed;
+        rBody2D.angularVelocity = 0.0f;
     }
 }
