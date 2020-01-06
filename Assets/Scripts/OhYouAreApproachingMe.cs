@@ -13,4 +13,9 @@ public class OhYouAreApproachingMe : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, target.position, speed * 0.01f);
         }
     }
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+    }
+
 }

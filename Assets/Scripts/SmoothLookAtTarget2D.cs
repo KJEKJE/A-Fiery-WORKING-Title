@@ -7,6 +7,7 @@ public class SmoothLookAtTarget2D : MonoBehaviour
     public Transform target;
     public float smoothing = 5.0f;
     public float adjustmentAngle = 0.0f;
+
     private void Update()
     {
         if (target != null)
@@ -17,4 +18,10 @@ public class SmoothLookAtTarget2D : MonoBehaviour
             transform.rotation = Quaternion.Lerp(transform.rotation, newRot, Time.deltaTime * smoothing);
         }
     }
+
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget;
+    }
+
 }
