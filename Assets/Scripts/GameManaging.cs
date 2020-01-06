@@ -23,4 +23,8 @@ public class GameManaging : MonoBehaviour
     {
         SceneManager.LoadScene("How To Play");
     }
+    public void YouWin()
+    {
+        SceneManager.LoadScene("Congrats!");
+    }
 }
