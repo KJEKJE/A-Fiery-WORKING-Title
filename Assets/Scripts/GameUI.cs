@@ -25,6 +25,8 @@ public class GameUI : MonoBehaviour
     {
         playerScore += theScore;
         scoreText.text = "Score: " + playerScore.ToString();
+        PlayerPrefs.SetInt("FinalScore", playerScore);
+        Debug.Log(PlayerPrefs.GetInt("FinalScore"));
     }
 
     //private void Awake()

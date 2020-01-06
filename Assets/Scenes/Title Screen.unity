@@ -582,7 +582,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '[A game by KJEKJE]'
+  m_Text: ~A game by KJEKJE~
 --- !u!222 &927670318
 CanvasRenderer:
   m_ObjectHideFlags: 0
