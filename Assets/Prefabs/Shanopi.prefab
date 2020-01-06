@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 2029772634}
   - component: {fileID: 2029772636}
   - component: {fileID: 2029772635}
+  - component: {fileID: 1473498653}
   m_Layer: 0
   m_Name: Projectile Spawner II
   m_TagString: Untagged
@@ -84,12 +85,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029772633}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b8c90cc32c80dc34d89228ce40dff8a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0.42
+  time: 1.42
   repeat: 1
   onTimerComplete:
     m_PersistentCalls:
@@ -122,6 +123,37 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 4024772287426414779, guid: eaf9c0ecf3882cc41b1977b2408e899a,
     type: 3}
   adjustmentAngle: 0
+--- !u!114 &1473498653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029772633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34182b4ebb3a16d41877c64e231fbead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Min: 1
+  Max: 3
+  repeat: 1
+  onTimerCompleteII:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2029772635}
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &3245221282512566685
 GameObject:
   m_ObjectHideFlags: 0

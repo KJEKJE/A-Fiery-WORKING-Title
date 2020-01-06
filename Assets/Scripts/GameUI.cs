@@ -26,4 +26,12 @@ public class GameUI : MonoBehaviour
         playerScore += theScore;
         scoreText.text = "Score: " + playerScore.ToString();
     }
+
+    //private void Awake()
+    //{
+    //    DontDestroyOnLoad(transform.gameObject);
+    //
+    //    int finalScore = 0 + playerScore;
+    //    scoreText.text = "Final Score: " + playerScore.ToString();
+    //}
 }
