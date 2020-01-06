@@ -308,8 +308,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22fa526e7b9661f4fa127393a0b53e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
-  scoreText: {fileID: 0}
+  healthBar: {fileID: 369606626}
+  scoreText: {fileID: 1439608434}
   playerScore: 0
 --- !u!1 &369606624
 GameObject:
