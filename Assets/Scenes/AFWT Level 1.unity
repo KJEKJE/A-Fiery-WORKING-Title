@@ -565,6 +565,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &750785847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 750785847, guid: f3d350a5f2c5d9a40b85272898c12b3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3245221283952187795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &750785849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750785847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cee4ef4bf5bbaf47ba94ff42a273216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  resetTime: 0.25
 --- !u!1 &1205638687
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,7 +872,8 @@ GameObject:
   - component: {fileID: 1516439624}
   - component: {fileID: 1516439625}
   - component: {fileID: 1516439626}
-  m_Layer: 0
+  - component: {fileID: 1516439627}
+  m_Layer: 13
   m_Name: Flare
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1035,6 +1056,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 370e8c33e679e5a45b8eaf282ac36882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1516439627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516439617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e33830c17a9f7439599c8094beb954, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 30
+  onDie:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1516439626}
+        m_MethodName: SendHealthData
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: OnDamagedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1 &2031160594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,8 +1160,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031160594}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.02, y: 0.99, z: -918.33154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01999998, y: 0.9900001, z: -918.33154}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
