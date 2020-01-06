@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public delegate void UpdateHealth(int newHP);
+    public static event UpdateHealth OnUpdateHealth;
+    
     private Animator fbAnim; //where fb is fireball
     private void Start()
     {
@@ -18,6 +21,14 @@ public class Player : MonoBehaviour
         else//when not pressed, or released
         {
             fbAnim.SetBool("Firing?", false);
+        }
+    }
+
+    public void SendHealthData(int HP)
+    {
+        if (OnUpdateHealth != null)
+        {
+            OnUpdateHealth(HP);
         }
     }
 }
