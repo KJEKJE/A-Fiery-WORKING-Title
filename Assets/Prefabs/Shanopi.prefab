@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750785848}
   - component: {fileID: 750785849}
+  - component: {fileID: 470758028}
   m_Layer: 14
   m_Name: Hurt Trigger
   m_TagString: Untagged
@@ -43,8 +44,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cee4ef4bf5bbaf47ba94ff42a273216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 3
-  resetTime: 0.25
+  damage: -1
+  resetTime: 1
+--- !u!58 &470758028
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750785847}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &2029772633
 GameObject:
   m_ObjectHideFlags: 0

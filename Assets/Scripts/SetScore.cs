@@ -22,12 +22,12 @@ public class SetScore : MonoBehaviour
         if (Convert.ToInt32(FinalScore) > Convert.ToInt32(HighScore))
         {
             PlayerPrefs.SetInt("HighScore", thatScore);
-            Debug.Log(PlayerPrefs.GetInt("HighScore"));
+            //Debug.Log(PlayerPrefs.GetInt("HighScore"));
             HighScore = PlayerPrefs.GetInt("HighScore").ToString();//set to new value
         }
         else
         {
-            Debug.Log(PlayerPrefs.GetInt("HighScore"));
+            //Debug.Log(PlayerPrefs.GetInt("HighScore"));
         }
 
         finalScore.text = "Final Score: " + FinalScore;

@@ -28,8 +28,8 @@ public class GameUI : MonoBehaviour
 
         scoreText.text = "Score: " + playerScore.ToString();
         PlayerPrefs.SetInt("FinalScore", playerScore);
-        Debug.Log(PlayerPrefs.GetInt("FinalScore"));
-        Debug.Log(PlayerPrefs.GetInt("HighScore"));
+        //Debug.Log(PlayerPrefs.GetInt("FinalScore"));
+        //Debug.Log(PlayerPrefs.GetInt("HighScore"));
 
 
         //is the current high score broken?
