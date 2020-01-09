@@ -12,11 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 894fd9c0335867c4080e00ba3e95d85c
   - enabled: 1
-    path: Assets/Scenes/Select Stage.unity
-    guid: 99361cfa2fe2c7b40b434f771a6f2199
-  - enabled: 1
     path: Assets/Scenes/How To Play.unity
     guid: b183e5baf2b58ac4985b68a896e7a3d4
+  - enabled: 1
+    path: Assets/Scenes/Select Stage.unity
+    guid: 99361cfa2fe2c7b40b434f771a6f2199
   - enabled: 1
     path: Assets/Scenes/AFWT Level 1.unity
     guid: baf0c9d9e25514149a2931ed102c4665
