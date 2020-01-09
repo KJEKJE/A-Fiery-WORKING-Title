@@ -9,12 +9,12 @@ public class ShootMechanic : MonoBehaviour
     public float fireTime = 0.5f;
     private bool isFiring = false;
 
-    AudioSource whatsfx;
+    //AudioSource whatsfx;
 
-    private void Start()
-    {
-        whatsfx = GetComponent<AudioSource>();
-    }
+    //private void Start()
+    //{
+    //    whatsfx = GetComponent<AudioSource>();
+    //}
 
     private void SetFiring()
     {

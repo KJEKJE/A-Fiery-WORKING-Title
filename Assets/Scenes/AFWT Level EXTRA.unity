@@ -2659,7 +2659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a5a6937a8a47ff4a9cf973d94bbb98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 500
+  score: 250
 --- !u!114 &7201609533089290115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2684,7 +2684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc53c8f7555f2d440bea2137bb33f425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 2131613069}
   smoothing: 2
   adjustmentAngle: 90
 --- !u!114 &7201609533089290117
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 358549212cd5d1b4db8136580e9183e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 2131613069}
   speed: 3
 --- !u!58 &7201609533089290120
 CircleCollider2D:

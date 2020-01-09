@@ -418,6 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 369606626}
+  healthBarII: {fileID: 0}
   scoreText: {fileID: 1439608434}
   playerScore: 0
 --- !u!1 &369606624
@@ -2145,6 +2146,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.0819905
+      objectReference: {fileID: 0}
+    - target: {fileID: 3245221282512566658, guid: f3d350a5f2c5d9a40b85272898c12b3d,
+        type: 3}
+      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3245221282512566658, guid: f3d350a5f2c5d9a40b85272898c12b3d,
+        type: 3}
+      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3245221282512566658, guid: f3d350a5f2c5d9a40b85272898c12b3d,
+        type: 3}
+      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3245221282512566658, guid: f3d350a5f2c5d9a40b85272898c12b3d,
+        type: 3}
+      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: -3050751933899254583, guid: ed9bf8a5aa7292c489edb9ebd85f344d,
+        type: 3}
+    - target: {fileID: 3245221282512566658, guid: f3d350a5f2c5d9a40b85272898c12b3d,
+        type: 3}
+      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 3245221282512566658, guid: f3d350a5f2c5d9a40b85272898c12b3d,
+        type: 3}
+      propertyPath: onDamaged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3d350a5f2c5d9a40b85272898c12b3d, type: 3}

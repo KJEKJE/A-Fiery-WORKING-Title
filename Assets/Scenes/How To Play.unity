@@ -154,7 +154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 248, y: -31}
+  m_AnchoredPosition: {x: 250, y: -5}
   m_SizeDelta: {x: 173.5, y: 162.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &98995282
@@ -496,8 +496,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2, y: -79}
-  m_SizeDelta: {x: 208.4, y: 113.5}
+  m_AnchoredPosition: {x: -0.000027657, y: -71.3}
+  m_SizeDelta: {x: 238, y: 167.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &365218708
 MonoBehaviour:
@@ -521,10 +521,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -540,6 +540,10 @@ MonoBehaviour:
     Move Mouse = Face Direction
 
     Click/Hold Click = Shoot Fireball
+
+
+    The ''High Score'' is your best score across any level, and is universal to the
+    game. How high can you go?
 
 
     Good luck!'
@@ -585,7 +589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2, y: 74.70001}
+  m_AnchoredPosition: {x: 1.2, y: 106}
   m_SizeDelta: {x: 733.6, y: 149.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732266215
@@ -623,10 +627,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Play as Flare, a small fireball with a lot of energy! He''s quite fast,
     hot-headed, and likes to fight. Stumbling across enemy territory, it seems that
-    he must defeat enough to win and successfully escape!
+    he''s in for a lot of chaos. But no worries, you''ve got enough spirit for the
+    lot of them!
 
 
-    How long will you last?
+    So, how long will you last?
 
 
     Will you prevail?'
@@ -1035,7 +1040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -248, y: -56.85}
+  m_AnchoredPosition: {x: -252, y: -48}
   m_SizeDelta: {x: 193.6, y: 270.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241554260

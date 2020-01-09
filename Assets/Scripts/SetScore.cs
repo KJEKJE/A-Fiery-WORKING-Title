@@ -11,14 +11,20 @@ public class SetScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+
         string FinalScore = null;
         string HighScore = null;
-        
+
+        //PlayerPrefs.SetInt("FinalScore", 0); //used to reset it all
+        //PlayerPrefs.SetInt("HighScore", 420); //used to reset it all
+
         FinalScore = PlayerPrefs.GetInt("FinalScore").ToString();
         HighScore = PlayerPrefs.GetInt("HighScore").ToString();
 
         int thatScore = Convert.ToInt32(FinalScore);
 
+        
         if (Convert.ToInt32(FinalScore) > Convert.ToInt32(HighScore))
         {
             PlayerPrefs.SetInt("HighScore", thatScore);
