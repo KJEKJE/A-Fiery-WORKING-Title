@@ -154,8 +154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -5}
-  m_SizeDelta: {x: 173.5, y: 162.6}
+  m_AnchoredPosition: {x: 266, y: -53.4}
+  m_SizeDelta: {x: 234.6, y: 259.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &98995282
 MonoBehaviour:
@@ -179,7 +179,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 15
+    m_FontSize: 11
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -190,17 +190,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Credits:
-
-
-    Coding - KJEKJE
-
-    Music - [TBA]
-
-    SFX - [TBA]
-
-
-    Special Thanks - unlikely'
+  m_Text: "Credits:\n\nCoding - KJEKJE\nArt/Spritework - KJEKJE\nMusic - KJEKJE\nSFX
+    - KJEKJE\n\nMade with Unity\nFont is Arial\n\nSpecial Thanks:\n\nFamily, friends,
+    and lecturers with guidance, direction, and play-testing.\r\n\r\nYou know who
+    you are. :)\r\n\r\n\r\n\n~ Thanks for playing! Stay tuned for more! ^^ ~"
 --- !u!222 &98995283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -492,7 +485,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 858710415}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -589,7 +582,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.2, y: 106}
+  m_AnchoredPosition: {x: 1, y: 99}
   m_SizeDelta: {x: 733.6, y: 149.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732266215
@@ -625,10 +618,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Play as Flare, a small fireball with a lot of energy! He''s quite fast,
-    hot-headed, and likes to fight. Stumbling across enemy territory, it seems that
-    he''s in for a lot of chaos. But no worries, you''ve got enough spirit for the
-    lot of them!
+  m_Text: 'Play as Flare, a small Infern with a lot of energy! He''s quite fast, hot-headed,
+    and likes to fight. Stumbling across enemy territory, it seems that he''s in for
+    a lot of chaos. But no worries, you''ve got enough spirit burning  for the lot
+    of them!
 
 
     So, how long will you last?
@@ -737,6 +730,7 @@ RectTransform:
   - {fileID: 1615300321}
   - {fileID: 732266214}
   - {fileID: 98995281}
+  - {fileID: 1468422644}
   - {fileID: 365218707}
   - {fileID: 1232990172}
   - {fileID: 1241554259}
@@ -905,7 +899,7 @@ RectTransform:
   m_Children:
   - {fileID: 1832563861}
   m_Father: {fileID: 858710415}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1036,12 +1030,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 858710415}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -252, y: -48}
-  m_SizeDelta: {x: 193.6, y: 270.3}
+  m_AnchoredPosition: {x: -246.8, y: -19.2}
+  m_SizeDelta: {x: 172.2, y: 255}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1241554260
 MonoBehaviour:
@@ -1081,6 +1075,88 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241554258}
   m_CullTransparentMesh: 0
+--- !u!1 &1468422643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1468422644}
+  - component: {fileID: 1468422646}
+  - component: {fileID: 1468422645}
+  m_Layer: 5
+  m_Name: Extra
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1468422644
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468422643}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 858710415}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -240.4, y: -169}
+  m_SizeDelta: {x: 291.8, y: 58}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1468422645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468422643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.91768533, b: 0.7216981, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 10
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'NOTE: There are likely a few bugs here and there I have yet to iron out.
+    If you do find one, let me know, and I''ll add it to the list. I aim to work and
+    improve on the game in the future, so you can follow me to keep up to date with
+    what I do next!'
+--- !u!222 &1468422646
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468422643}
+  m_CullTransparentMesh: 0
 --- !u!1 &1615300320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,8 +1191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 187.8}
-  m_SizeDelta: {x: 362.3, y: 39.2}
+  m_AnchoredPosition: {x: -0.000015259, y: 186}
+  m_SizeDelta: {x: 362.3, y: 35.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1615300322
 MonoBehaviour:
@@ -1141,7 +1217,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 25
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 50

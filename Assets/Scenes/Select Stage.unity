@@ -229,8 +229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100.1, y: 44.250004}
-  m_SizeDelta: {x: 171.9, y: 159.1}
+  m_AnchoredPosition: {x: -93.025, y: 44.250004}
+  m_SizeDelta: {x: 186.05, y: 159.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269966529
 MonoBehaviour:
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87843144, g: 0.87843144, b: 0.87843144, a: 1}
+  m_Color: {r: 1, g: 0.81284684, b: 0.5518868, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -265,8 +265,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Start at your hometown, where some of the Shanopi Group have tracked you
-    down to fight! How many can you defeated before you''re overwhelmed?
+  m_Text: 'Start at your hometown, where some of the Shanopi have tracked you down
+    to fight!
+
+
+    It''s clearly unsafe now... how many can you defeat before you''re overwhelmed?
 
 
     [30HP]'
@@ -314,8 +317,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 116.3, y: -129}
-  m_SizeDelta: {x: 191.7, y: 150.2}
+  m_AnchoredPosition: {x: 106, y: -121}
+  m_SizeDelta: {x: 191.7, y: 166.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270631412
 MonoBehaviour:
@@ -650,8 +653,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 225, y: 166.7}
-  m_SizeDelta: {x: 337.9, y: 85.8}
+  m_AnchoredPosition: {x: 179, y: 166.7}
+  m_SizeDelta: {x: 429.9, y: 85.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &403590634
 MonoBehaviour:
@@ -666,7 +669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.86274517, g: 0.86274517, b: 0.8705883, a: 1}
+  m_Color: {r: 1, g: 0.9038668, b: 0.4575472, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -676,22 +679,24 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 11
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 105
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pay attention to the enemies! The Shanopi are grasslings, so if you''re
-    close enough to them, you can regain HP. You may even exceed your starting HP!
+  m_Text: 'Tip:
+
+    Pay attention to the enemies! The Shanopi are Grasslings, so if you''re close
+    enough to them, you can regain HP. You may even exceed your starting HP!
 
 
-    The Aquais, on the other hand, are aqualings, and will deal quite a bit of damage
-    on you. Avoid them and their attacks for as long as possible.'
+    The Aquais, on the other hand, will deal quite a bit of damage on you, as they''re
+    Aqualings. Avoid them and their attacks for as long as possible.'
 --- !u!222 &403590635
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -815,8 +820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 298.2, y: -123.69998}
-  m_SizeDelta: {x: 171.9, y: 165}
+  m_AnchoredPosition: {x: 296.09998, y: -123.69998}
+  m_SizeDelta: {x: 177.3, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &601288742
 MonoBehaviour:
@@ -831,7 +836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87843144, g: 0.87843144, b: 0.87843144, a: 1}
+  m_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -851,8 +856,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The big guy. The proud king. A little different to the other levels, where
-    score doesn''t matter much here.
+  m_Text: 'The big guy. The proud king.
+
+
+    A little different to the other levels, where score doesn''t matter much here.
 
 
     Your objective? Defeat King Tempest and win!
@@ -1358,8 +1365,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 116.3, y: 40.6}
-  m_SizeDelta: {x: 191.7, y: 156.9}
+  m_AnchoredPosition: {x: 105.999985, y: 44.12}
+  m_SizeDelta: {x: 191.7, y: 136.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1286654766
 MonoBehaviour:
@@ -1489,8 +1496,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 298.8, y: 41.300014}
-  m_SizeDelta: {x: 171.9, y: 165}
+  m_AnchoredPosition: {x: 296.0999, y: 41.300014}
+  m_SizeDelta: {x: 177.3, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1556434012
 MonoBehaviour:
@@ -1505,7 +1512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87843144, g: 0.87843144, b: 0.87843144, a: 1}
+  m_Color: {r: 0.6933962, g: 0.8359023, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1525,9 +1532,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Now, this is where things get interesting. This is Aquais territory, Aqualings
-    you could say. No HP boosts here! Only surviving as long as you can, with as much
-    as you''ve got!
+  m_Text: 'Now, this is where things get interesting. This is Aquais territory, where
+    the Aqualings reside.
+
+
+    No HP boosts here! Only surviving as long as you can, with as much as you''ve
+    got!
 
 
     [90HP]'
@@ -1573,8 +1583,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -87.9, y: 178.9}
-  m_SizeDelta: {x: 270.2, y: 35}
+  m_AnchoredPosition: {x: -286.1, y: 160.10005}
+  m_SizeDelta: {x: 174.7, y: 72.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1615300322
 MonoBehaviour:
@@ -1599,7 +1609,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
-    m_FontStyle: 1
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 50
@@ -1860,7 +1870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -310.7, y: 179.2}
+  m_AnchoredPosition: {x: -111.15004, y: 160.10004}
   m_SizeDelta: {x: 150.4, y: 28.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1846241948
@@ -1991,7 +2001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105, y: -26.75}
+  m_AnchoredPosition: {x: 90.5, y: -15.51}
   m_SizeDelta: {x: 155.8, y: 17.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1904592278
@@ -2070,8 +2080,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -100.1, y: -123.7}
-  m_SizeDelta: {x: 171.9, y: 165}
+  m_AnchoredPosition: {x: -93.025, y: -123.7}
+  m_SizeDelta: {x: 186.05, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2037164459
 MonoBehaviour:
@@ -2086,7 +2096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.87843144, g: 0.87843144, b: 0.87843144, a: 1}
+  m_Color: {r: 0.5724902, g: 0.7830189, b: 0.59725827, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2107,8 +2117,11 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'So, you''ve decided to enter the forest, but you''re made of fire. Of course
-    the Shanopi will want to hunt you down. You''ve got more HP, but judging by how
-    many will show up, you''re going to need it.
+    the Shanopi will want to hunt you down.
+
+
+    You''ve got more HP, but judging by how many will show up, you''re going to need
+    it.
 
 
     [60HP]'
