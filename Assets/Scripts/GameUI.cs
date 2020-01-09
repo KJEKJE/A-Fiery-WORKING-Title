@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System;
 public class GameUI : MonoBehaviour
 {
     public Slider healthBar;
@@ -24,9 +25,16 @@ public class GameUI : MonoBehaviour
     private void UpdateScore(int theScore)
     {
         playerScore += theScore;
+
         scoreText.text = "Score: " + playerScore.ToString();
         PlayerPrefs.SetInt("FinalScore", playerScore);
-        //Debug.Log(PlayerPrefs.GetInt("FinalScore"));
+        Debug.Log(PlayerPrefs.GetInt("FinalScore"));
+        Debug.Log(PlayerPrefs.GetInt("HighScore"));
+
+
+        //is the current high score broken?
+
+
     }
 
     //private void Awake()
