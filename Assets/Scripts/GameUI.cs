@@ -4,6 +4,7 @@ using System;
 public class GameUI : MonoBehaviour
 {
     public Slider healthBar;
+    public Slider healthBarII;
     public Text scoreText;
 
     public int playerScore = 0;
@@ -11,17 +12,25 @@ public class GameUI : MonoBehaviour
     private void OnEnable()
     {
         Player.OnUpdateHealth += UpdateHealthBar;
+        BossUI.OnUpdateHealthII += UpdateHealthBarII;
         AddScore.OnSendScore += UpdateScore;
     }
     private void OnDisable()
     {
         Player.OnUpdateHealth -= UpdateHealthBar;
+        BossUI.OnUpdateHealthII -= UpdateHealthBarII;
         AddScore.OnSendScore -= UpdateScore;
     }
     private void UpdateHealthBar(int HP)
     {
         healthBar.value = HP;
     }
+
+    private void UpdateHealthBarII(int HP)
+    {
+        healthBarII.value = HP;
+    }
+
     private void UpdateScore(int theScore)
     {
         playerScore += theScore;

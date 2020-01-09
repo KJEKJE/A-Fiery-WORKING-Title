@@ -35,6 +35,11 @@ public class GameManaging : MonoBehaviour
         SceneManager.LoadScene("Title Screen");
     }
 
+    public void StageSelect()
+    {
+        SceneManager.LoadScene("Select Stage");
+    }
+
     public void Instructions()
     {
         SceneManager.LoadScene("How To Play");
